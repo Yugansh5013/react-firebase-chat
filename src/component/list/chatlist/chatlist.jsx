@@ -1,6 +1,6 @@
 import "./chatlist.css"
 import { useState } from "react"
-import AddUser from "./addUser/addUser"
+import AddUser from "./addUser/adduser"
 import {useUserStore} from "../../../lib/userStore"
 import { useEffect } from "react"
 import { onSnapshot } from "firebase/firestore"
